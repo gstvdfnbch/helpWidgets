@@ -22,19 +22,19 @@ struct ContentView: View {
                             HStack(spacing: 16){
                                 Spacer()
                                 Image(systemName: "chevron.left")
-                                    .font(.title)
+                                    .font(.title3)
                                     .foregroundStyle(.secondary)
                                 VStack{
                                     Text("October")
-                                        .font(.title)
+                                        .font(.title3)
                                         .fontWeight(.bold)
                                         .foregroundStyle(.primary)
                                     Text("07 - 14 October 2023")
-                                        .font(.callout)
+                                        .font(.body)
                                         .foregroundStyle(.secondary)
                                 }
                                 Image(systemName: "chevron.right")
-                                    .font(.title)
+                                    .font(.title3)
                                     .foregroundStyle(.secondary)
 
                                 Spacer()
@@ -98,9 +98,13 @@ struct ContentView: View {
                         }
                         .padding(.horizontal, 16)
                     }
+                    .padding(.vertical, 16)
                 }
-                .navigationTitle("Save money, #$&@%!")
-                .navigationBarTitleDisplayMode(.inline)
+                .background(Color("backgrounColor"))
+                .navigationTitle("MonthlyCalc")
+                .toolbarBackground(.visible, for: .navigationBar)
+                .toolbarBackground(Color("greySystem6"), for: .navigationBar)
+                .navigationBarTitleDisplayMode(.large)
                 .navigationBarItems(trailing:
                     Image(systemName: "plus.app")
                     .font(.title2)
