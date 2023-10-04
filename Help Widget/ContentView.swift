@@ -94,10 +94,9 @@ struct ContentView: View {
                                 ValueRectWidget(data: todayExpense(expansesOct, startValueCalc: startValue))
                                 ValueRectWidget(data: yesterdayExpense(expansesOct, startValueCalc: startValue))
                             }
+                            BottomRect()
                         }
                         .padding(.horizontal, 16)
-                        
-                        
                     }
                 }
                 .navigationTitle("Save money, #$&@%!")

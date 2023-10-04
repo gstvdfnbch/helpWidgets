@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3E65C42ACD1D50000CBBCA /* BottomRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E65C32ACD1D50000CBBCA /* BottomRect.swift */; };
 		7BC5C3012ACB003100B201BD /* Help_WidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5C3002ACB003100B201BD /* Help_WidgetApp.swift */; };
 		7BC5C3032ACB003100B201BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5C3022ACB003100B201BD /* ContentView.swift */; };
 		7BC5C3052ACB003200B201BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC5C3042ACB003200B201BD /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B3E65C32ACD1D50000CBBCA /* BottomRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRect.swift; sourceTree = "<group>"; };
 		7BC5C2FD2ACB003100B201BD /* Help Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC5C3002ACB003100B201BD /* Help_WidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_WidgetApp.swift; sourceTree = "<group>"; };
 		7BC5C3022ACB003100B201BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				7BC5C30F2ACB180C00B201BD /* ValueRectWidget.swift */,
 				7BC5C3112ACB182500B201BD /* ChartsLineCompareWidget.swift */,
 				7BC5C3222ACCD12D00B201BD /* ChartsBarsWidget.swift */,
+				7B3E65C32ACD1D50000CBBCA /* BottomRect.swift */,
 			);
 			path = Componets;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				7BC5C3122ACB182500B201BD /* ChartsLineCompareWidget.swift in Sources */,
 				7BC5C3032ACB003100B201BD /* ContentView.swift in Sources */,
 				7BC5C31B2ACB2C5500B201BD /* DataClass.swift in Sources */,
+				7B3E65C42ACD1D50000CBBCA /* BottomRect.swift in Sources */,
 				7BC5C3102ACB180C00B201BD /* ValueRectWidget.swift in Sources */,
 				7BC5C3142ACB183D00B201BD /* TypeEnum.swift in Sources */,
 				7BC5C3182ACB2AC200B201BD /* Constants.swift in Sources */,
