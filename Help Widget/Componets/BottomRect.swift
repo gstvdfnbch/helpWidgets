@@ -17,7 +17,14 @@ struct BottomRect: View{
             Image("gstv.logo")
                 .padding(16)
         }
-        .cornerRadius(cornerRadiusInside+16)
+        .clipShape(
+            .rect(
+                topLeadingRadius: cornerRadiusInside,
+                bottomLeadingRadius: cornerRadiusInside+16,
+                bottomTrailingRadius: cornerRadiusInside+16,
+                topTrailingRadius: cornerRadiusInside
+            )
+        )
         .shadow(radius: shadowValue)
 
     }
