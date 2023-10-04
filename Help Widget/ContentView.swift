@@ -94,7 +94,7 @@ struct ContentView: View {
                                 ValueRectWidget(data: todayExpense(expansesOct, startValueCalc: startValue))
                                 ValueRectWidget(data: yesterdayExpense(expansesOct, startValueCalc: startValue))
                             }
-                            BottomRect()
+                            BottomRectGstv()
                         }
                         .padding(.horizontal, 16)
                     }

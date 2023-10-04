@@ -60,7 +60,7 @@ struct ChartsBarsWidget: View {
                     //series: .value("Daily expenses Now", "DEN")
                 )
                 .interpolationMethod(.catmullRom)
-                .foregroundStyle(.blue.gradient)
+                .foregroundStyle(.green.gradient)
                 .lineStyle(StrokeStyle(lineWidth: 2, lineCap: .round))
             }
             RuleMark( y: .value("R$", self.averageRule))

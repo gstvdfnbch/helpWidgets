@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct BottomRect: View{
+struct BottomRectGstv: View{
     
     var body: some View{
         ZStack{

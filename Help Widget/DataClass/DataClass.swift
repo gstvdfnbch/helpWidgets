@@ -39,7 +39,7 @@ class BasicInfos {
         self.percentRule = percentRule ?? false
         self.calc = calc ?? ""
         self.color = color ?? Color.black
-        self.namedIcon = namedIcon ?? "circle"
+        self.namedIcon = namedIcon ?? "x"
         self.colorStroke = colorStroke ?? Color("greySystem6")
     }
     

@@ -70,7 +70,7 @@ struct ChartsLineCompareWidget: View {
                     series: .value("Daily expenses Now", "DEN")
                 )
                 .interpolationMethod(.catmullRom)
-                .foregroundStyle(.blue)
+                .foregroundStyle(.green)
                 .lineStyle(StrokeStyle(lineWidth: 2, lineCap: .round))
                 
             }
@@ -81,7 +81,7 @@ struct ChartsLineCompareWidget: View {
                     series: .value("Daily expenses Last", "DEL")
                 )
                 .interpolationMethod(.catmullRom)
-                .foregroundStyle(.blue.opacity(0.3))
+                .foregroundStyle(.green.gradient.opacity(0.3))
                 .lineStyle(StrokeStyle(lineWidth: 2, lineCap: .round))
             }
             RuleMark( y: .value("R$", self.averageRule))
