@@ -111,9 +111,6 @@ struct ContentView: View {
                 .sheet(isPresented: $isModalAddExpense) {
                     AddItemView()
                 }
-                //                .fullScreenCover(isPresented: $isModalAddExpense) {
-                //                    AddItemView()
-                //                }
             }
         }
     }
