@@ -21,7 +21,7 @@ struct ValueRectWidget: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: cornerRadiusInside) // Forma geométrica da borda
-                .stroke(data.colorStroke.opacity(0.5), lineWidth: 6)
+                .stroke(data.colorStroke.opacity(1.0), lineWidth: 6)
                 .background(Color("greySystem6"))
             HStack(spacing: 16){
                 VStack(alignment: .leading, spacing: 8) {

@@ -238,8 +238,7 @@ func calculateExpenseTotal(_ list: [DataDoublePair]) -> BasicInfos {
                        subtitle: "Remenber to save money!",
                        unit: "R$",
                        value: -accumulated,
-                       namedIcon: "expenses",
-                       colorStroke: .red)
+                       namedIcon: "expenses")
 }
 
 // Crie uma lista de pares DataDoublePair com datas e valores específicos
